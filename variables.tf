@@ -8,3 +8,8 @@ variable "instance_name" {
   type        = "string"
   description = "Name of EC2 Instance"
 }
+
+variable "key_name" {
+  type = "string"
+  description = "Name of AWS KeyPair"
+}
