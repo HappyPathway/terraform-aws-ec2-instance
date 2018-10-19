@@ -13,9 +13,3 @@ variable "key_name" {
   type = "string"
   description = "Name of AWS KeyPair"
 }
-
-variable "instance_count" {
-  type = "string"
-  description = "Number of deployed instances"
-  default = 1
-}
