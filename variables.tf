@@ -9,6 +9,11 @@ variable "instance_name" {
   description = "Name of EC2 Instance"
 }
 
+variable "subnet_id" {
+  type = "string"
+  description = "The VPC Subnet ID to launch in."
+}
+
 variable "key_name" {
   type = "string"
   description = "Name of AWS KeyPair"
